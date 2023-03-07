@@ -1,5 +1,6 @@
 #!/bin/bash
 # Lints all the recipes created / modified since upstream HEAD.
+set -x
 git remote add real_origin https://github.com/haikuports/haikuports.git || true
 git fetch real_origin
 
